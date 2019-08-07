@@ -1,0 +1,32 @@
+Exception	                         Description
+------------------------------------------------------------------------------------------------------------------------
+AssertionError :_____________________Raised when the assert statement fails.
+AttributeError :_____________________Raised on the attribute assignment or reference fails.
+EOFError :___________________________Raised when the input() function hits the end-of-file condition.
+FloatingPointError :_________________Raised when a floating point operation fails.
+GeneratorExit :______________________Raised when a generator's close() method is called.
+ImportError :________________________Raised when the imported module is not found.
+IndexError :_________________________Raised when the index of a sequence is out of range.
+KeyError :___________________________Raised when a key is not found in a dictionary.
+KeyboardInterrupt :__________________Raised when the user hits the interrupt key (Ctrl+c or delete).
+MemoryError :________________________Raised when an operation runs out of memory.
+NameError :__________________________Raised when a variable is not found in the local or global scope.
+NotImplementedError :________________Raised by abstract methods.
+OSError :____________________________Raised when a system operation causes a system-related error.
+OverflowError :______________________Raised when the result of an arithmetic operation is too large to be represented.
+ReferenceError :_____________________Raised when a weak reference proxy is used to access a garbage collected referent.
+RuntimeError :______________________ Raised when an error does not fall under any other category.
+StopIteration :______________________Raised by the next() function to indicate that there is no further item to be returned by the iterator.
+SyntaxError :________________________Raised by the parser when a syntax error is encountered.
+IndentationError :___________________Raised when there is an incorrect indentation.
+TabError :___________________________Raised when the indentation consists of inconsistent tabs and spaces.
+SystemError :________________________Raised when the interpreter detects internal error.
+SystemExit :_________________________Raised by the sys.exit() function.
+TypeError :__________________________Raised when a function or operation is applied to an object of an incorrect type.
+UnboundLocalError :__________________Raised when a reference is made to a local variable in a function or method, but no value has been bound to that variable.
+UnicodeError :_______________________Raised when a Unicode-related encoding or decoding error occurs.
+UnicodeEncodeError :_________________Raised when a Unicode-related error occurs during encoding.
+UnicodeDecodeError :_________________Raised when a Unicode-related error occurs during decoding.
+UnicodeTranslateError :______________Raised when a Unicode-related error occurs during translation.
+ValueError :_________________________Raised when a function gets an argument of correct type but improper value.
+ZeroDivisionError :__________________Raised when the second operand of a division or module operation is zero.
